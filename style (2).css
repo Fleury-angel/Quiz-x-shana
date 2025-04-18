@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: url('/site fabuleux/emogi.jpg') no-repeat center center fixed;
+background-size: cover;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 2rem;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+  font-size: 16px;
+  margin-bottom: 0.2em;
+}
+
+.subtitle {
+  font-size: 16px;
+  margin-bottom: 1em;
+}
+
+.steps {
+  text-align: left;
+  margin-bottom: 1em;
+}
+
+.step-number {
+  background-color: #f39c12;
+  color: black;
+  border-radius: 50%;
+  padding: 0.3em 0.6em;
+  margin-right: 0.5em;
+}
+
+input[type="text"] {
+  padding: 0.5em;
+  width: 80%;
+  margin-bottom: 1em;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button {
+  padding: 0.6em 1.2em;
+  background-color: #3498db;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+.hidden {
+  display: none;
+}
+
+#question {
+  font-size: 16px;
+  margin-bottom: 1em;
+}
+
+#answers button {
+  display: block;
+  margin: 0.5em auto;
+  width: 100%;
+  background-color: #2ecc71;
+}
+
+#answers button:hover {
+  background-color: #27ae60;
+}
+
+#scoreboard {
+  margin-top: 2em;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th,
+table td {
+  border: 1px solid white;
+  padding: 0.5em;
+}
+
+table th {
+  background-color: #34495e;
+}

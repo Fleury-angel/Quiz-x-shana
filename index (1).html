@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz de shana</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Les Amis de <span class="username">shana</span></h1>
+    <p class="subtitle">Pouvez-vous deviner les réponses ?</p>
+
+    <div class="steps">
+      <p><span class="step-number">1</span> Écrivez votre nom</p>
+      <p><span class="step-number">2</span> Répondez aux questions sur <span class="username">Shana</span></p>
+      <p><span class="step-number">3</span> Vérifiez votre position sur le mur des amis !</p>
+    </div>
+
+    <input type="text" id="playerName" placeholder="Votre nom">
+    <button onclick="startQuiz()">Commencer</button>
+
+    <div id="quiz" class="hidden">
+      <div id="question"></div>
+      <div id="answers"></div>
+    </div>
+
+    <div id="scoreboard" class="hidden">
+      <h2>Amis de <span class="username">shana</span></h2>
+      <table>
+        <thead>
+          <tr><th>Nom</th><th>Points</th></tr>
+        </thead>
+        <tbody id="scoreTable"></tbody>
+      </table>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
